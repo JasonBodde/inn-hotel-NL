@@ -2,9 +2,11 @@
 $language = $_GET['lang'] ?? 'nl';
 $texts = [
     'nl' => ['Home', 'Hotels', 'Aanbiedingen', 'Contact'],
-    'en' => ['Home', 'Hotels', 'Offers', 'Contact']
+    'en' => ['Home', 'Hotels', 'aanbiedingen', 'Contact']
 ];
 ?>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand text-primary" href="index.php?lang=<?= $language ?>">Best-Inn Hotels</a>
